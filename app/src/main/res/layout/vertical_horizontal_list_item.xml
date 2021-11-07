@@ -38,6 +38,7 @@
                The scaleType should be set to centerCrop-->
 
         <ImageView
+
             android:id="@+id/dogsimage"
             android:layout_width="match_parent"
             android:layout_height="194dp"

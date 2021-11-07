@@ -45,11 +45,10 @@ class DogCardAdapter(
      */
     class DogCardViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
         // TODO: Declare and initialize all of the list item UI components
-        val imageView: ImageView = view!!.findViewById(R.id.dogsimage)
-        val textname: TextView = view!!.findViewById<Button>(R.id.dogsname)
-        val textage: TextView = view!!.findViewById<Button>(R.id.dogsage)
-        val texthobbies: TextView = view!!.findViewById<Button>(R.id.dogshobbies)
-
+                val imageView: ImageView = view!!.findViewById(R.id.dogsimage)
+                val textname: TextView = view!!.findViewById<Button>(R.id.dogsname)
+                val textage: TextView = view!!.findViewById<Button>(R.id.dogsage)
+                val texthobbies: TextView = view!!.findViewById<Button>(R.id.dogshobbies)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
